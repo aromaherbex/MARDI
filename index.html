@@ -226,8 +226,8 @@ body {
  .navigate-button {
       display: inline-block;
       padding: 10px 20px;
-      margin: 0px 140px;
-	  margin-right:0px;
+      margin: 0px 10px;
+      margin-top:8px;
       font-size: 16px;
       font-weight: 600;
       color: #fff;
@@ -251,8 +251,10 @@ body {
       color: #333;
       transition: border-color 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
       box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-	  margin-left:0px;
-	  width:71%;
+      margin-top:8px;
+      width:80%;
+      animation: summaryPulse 10s ease-in-out infinite;
+      
 	  
     }
 
@@ -273,8 +275,8 @@ body {
     <button class="navigate-button" onclick="navigateToPage()">Go to Pointage</button>
       <select id="daySelect" onchange="redirectToSite()">
 	  <option value="monday" data-url="">CHOISIR LE JOUR</option>
-      <option value="monday" data-url="https://example.com/monday">LUNDI</option>
-      <option value="tuesday" data-url="https://example.com/tuesday">MARDI</option>
+      <option value="monday" data-url="https://1.com/">LUNDI</option>
+      <option value="tuesday" data-url="https://1.com">MARDI</option>
       <option value="wednesday" data-url="https://example.com/wednesday">MERCREDI</option>
       <option value="thursday" data-url="https://example.com/thursday">اJEUDI</option>
       <option value="friday" data-url="https://example.com/friday">VENDREDI</option>
