@@ -273,6 +273,10 @@ body {
     option {
       padding: 8px 12px;
     }
+   span{
+    color: #0044ff;
+    font-weight: 900;
+}
 </style>
 </head>
 <body> 
@@ -393,7 +397,7 @@ body {
       const percentageDifference = ((totalHours4 / totalHours5) * 100 - 100).toFixed(2);
 
       const dataSummary = document.getElementById('dataSummary');
-      dataSummary.textContent = `<span style="color:#0044ff;">:>MARDI : </span> : Agrotareo: ${totalHours4}h * Pointage: ${totalHours5}h * Différence: ${de}h * Pourcentage de Différence: ${percentageDifference}%`;
+      dataSummary.textContent = `<span>MARDI : </span> : Agrotareo: ${totalHours4}h * Pointage: ${totalHours5}h * Différence: ${de}h * Pourcentage de Différence: ${percentageDifference}%`;
     }
 
     function formatDate(dateString) {
